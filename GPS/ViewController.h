@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import <MapKit/MapKit.h>
+@interface ViewController : UIViewController <CLLocationManagerDelegate, MKMapViewDelegate>
+@property (strong, nonatomic) IBOutlet MKMapView *mapview;
+@property(nonatomic,retain)CLLocationManager *manager;
+@property(nonatomic,retain)CLGeocoder *geocoder;
 
 
 @end

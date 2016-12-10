@@ -14,6 +14,7 @@
 		3F46F82B1DD9714B002D3DC0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F82A1DD9714B002D3DC0 /* Images.xcassets */; };
 		3F46F82E1DD9714B002D3DC0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F46F82C1DD9714B002D3DC0 /* LaunchScreen.xib */; };
 		3F46F83A1DD9714B002D3DC0 /* GPSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F46F8391DD9714B002D3DC0 /* GPSTests.m */; };
+		3F46F8441DD97166002D3DC0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F46F8431DD97166002D3DC0 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		3F46F8331DD9714B002D3DC0 /* GPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F46F8381DD9714B002D3DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F46F8391DD9714B002D3DC0 /* GPSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSTests.m; sourceTree = "<group>"; };
+		3F46F8431DD97166002D3DC0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F46F8441DD97166002D3DC0 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		3F46F8111DD9714B002D3DC0 = {
 			isa = PBXGroup;
 			children = (
+				3F46F8431DD97166002D3DC0 /* MapKit.framework */,
 				3F46F81C1DD9714B002D3DC0 /* GPS */,
 				3F46F8361DD9714B002D3DC0 /* GPSTests */,
 				3F46F81B1DD9714B002D3DC0 /* Products */,
